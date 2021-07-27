@@ -77,7 +77,7 @@ def split(A,B):
     for i in range (0,point_ID_max):
 
       new_k = idx[i,1:int(opt_nn_size[i,0])+1]
-      cov_mat2 = np.cov([X[new_k],Y[new_k],Z[new_k]])
+      cov_mat2 = np.cov([x[new_k],y[new_k],z[new_k]])
       eig_val_cov2, eig_vec_cov2 = np.linalg.eig(cov_mat2)
       eig_val_cov2 = np.sort(eig_val_cov2)
       eps2 = 1e-8;
