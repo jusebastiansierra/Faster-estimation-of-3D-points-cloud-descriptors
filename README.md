@@ -31,8 +31,7 @@ _Dí cómo será ese paso_
 Da un ejemplo
 ```
 
-_Y repite_
-
+<img width="555" alt="paso1" src="https://user-images.githubusercontent.com/38701770/127534500-bbca3386-e166-4e96-b6ec-6d64fabadc34.png">
 ```
 hasta finalizar
 ```
