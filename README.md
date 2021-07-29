@@ -23,70 +23,25 @@ The paper named Faster Estimation Of 3D Points Cloud Descriptors it is developed
 - 8 GB RAM.
 
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+<img width="555" alt="paso1" src="https://user-images.githubusercontent.com/38701770/127534500-bbca3386-e166-4e96-b6ec-6d64fabadc34.png">
 
-_Dí cómo será ese paso_
+## Step by Step
 
-```
-Da un ejemplo
-```
+These codes have the same base structure, therefore all three follow the same process for their execution. This section was developed based on the above, in order to show the key points to run the algorithms with any 3D point cloud.
+
+To run the code with a new point cloud, three key steps are required to successfully obtain the results. The first step is to save in the same folder both the Python code and the 3D point cloud in ".CSV" format, thus giving the code access to the required point cloud.
 
 <img width="555" alt="paso1" src="https://user-images.githubusercontent.com/38701770/127534500-bbca3386-e166-4e96-b6ec-6d64fabadc34.png">
-```
-hasta finalizar
-```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+The second step involves the modification of the algorithm, allowing to adjust the communication of the algorithm with the new point cloud. The mentioned change should be made in line number 9, where the name of the new file you want to work with should be entered. Finally, in the third step, the name of the files that the code will deliver in the same source folder must be changed in the same way. These files contain the 3D point clouds of the geometric descriptors, therefore it is recommended to leave the name of the descriptor intact and only add the name of the new point cloud to avoid confusion in the future. 
 
-## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+<img width="503" alt="paso2" src="https://user-images.githubusercontent.com/38701770/127535144-7ab1fde3-23f7-4b10-b9a8-2ffcc9a95296.png">
 
-### Analice las pruebas end-to-end 🔩
+<img width="668" alt="paso22" src="https://user-images.githubusercontent.com/38701770/127535159-2df75088-4685-47c1-b4ff-189c2d2dbf98.png">
 
-_Explica que verifican estas pruebas y por qué_
+As a final result, nine files in ".CSV" format with the names assigned in the previous step should be obtained inside the folder. These files contain the information of each geometric descriptor separately in point cloud format and an additional file containing the information of all descriptors, this in order to facilitate their practical use within other algorithms.
 
-```
-Da un ejemplo
-```
 
-### Y las pruebas de estilo de codificación ⌨️
+<img width="695" alt="paso3" src="https://user-images.githubusercontent.com/38701770/127535330-c55d6991-502f-4451-ab30-08c4caf6f078.png">
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
