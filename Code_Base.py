@@ -13,8 +13,8 @@ Z=np.array(df[2])
 
 # Define your neighborhood size
 
-kmin = 10
-kmax = 100
+kmin = 100
+kmax = 500
 deltaK = 10
 k_plus_1 = kmax+1;
 stepsK = int((kmax - kmin)/deltaK)
