@@ -17,8 +17,10 @@ The paper named Faster Estimation Of 3D Points Cloud Descriptors it is developed
 - Cuda Toolkit 11.2
 
 ## Hardware
-
-
+- Lenovo IdeaPad Gaming
+- Intel core i5 9700H, 4 cores
+- Graphic card NVidia GTX 1050, 2 GB VRAM.
+- 8 GB RAM.
 
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
